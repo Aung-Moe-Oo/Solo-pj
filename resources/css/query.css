@@ -1,0 +1,150 @@
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .content-box-lg {
+    padding: 30px 10px;
+  }
+  .content-box-md {
+    padding: 25px 10px;
+  }
+  .content-box-sm {
+    padding: 45px 0;
+  }
+  #home-content {
+    padding: 15px;
+    margin-top: 20px;
+  }
+  #home-heading p {
+    font-size: 12px;
+  }
+  #home-heading h1 {
+    font-size: 30px !important;
+  }
+  #home-heading p {
+    font-size: 10px !important;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .content-box-lg {
+    padding: 60px 20px;
+  }
+  .content-box-md {
+    padding: 50px 20px;
+  }
+  .content-box-sm {
+    padding: 90px 0;
+  }
+  .btn-general {
+    border-radius: 14px;
+    font-size: 12px;
+    margin: 0 6px;
+    padding: 6px 24px;
+  }
+  /* nav bar */
+  .navbar {
+    padding: 0;
+  }
+  .navbar-brand {
+    padding: 13px 15px;
+  }
+  ul.navbar-nav > li > a {
+    background-color: #fff !important;
+    width: 100vw;
+    color: #000;
+    text-align: center;
+  }
+  .navbar {
+    padding: 20px 0;
+    z-index: 2;
+  }
+  .site-nav-wrap {
+    padding: 0 5px;
+  }
+  .icon-bar {
+    background-color: #f4c613;
+  }
+  #home-heading h1 {
+    font-size: 35px;
+  }
+  #home-heading p {
+    font-size: 14px;
+  }
+  #arrow-down {
+    display: none;
+  }
+  .about-item {
+    margin-bottom: 20px;
+  }
+  /* vertical heading */
+  .vertical-heading h5 {
+    font-size: 12px;
+    word-spacing: 9px;
+    top: 0;
+    left: 20px;
+    transform: rotate(0);
+  }
+  .horizontal-heading {
+    margin-bottom: 10px;
+  }
+  .vertical-heading h2 {
+    font-size: 28px;
+    line-height: 28px;
+    margin: 0 20px 10px;
+  }
+  .horizontal-heading h5 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .horizontal-heading h2 {
+    font-size: 28px;
+    line-height: 28px;
+    margin: 0;
+  }
+  #statement h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #statement p {
+    font-size: 14px;
+    margin: 8px;
+  }
+  #isotope-filters button {
+    margin: 0;
+    padding: 0 8px 0 0;
+  }
+  .service .icon {
+    display: none;
+  }
+  .pricing-table {
+    margin-bottom: 10px;
+  }
+  .stats-item i {
+    font-size: 26px;
+    margin: 0 0 6px 0;
+  }
+  .stats-item h3 {
+    font-size: 20px;
+  }
+  .blog-post {
+    margin: 1rem auto;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+/* @media (max-width: 991.98px) {
+  ...;
+} */
+
+/* // Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) {
+  ...;
+} */
+
+/* // X-Large devices (large desktops, less than 1400px) */
+/* @media (max-width: 1399.98px) {
+  ...;
+} */
+
+/* // XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */
